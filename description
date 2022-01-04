@@ -1,0 +1,6 @@
+generate random question 
+  answer method bolean
+player class(life)
+  3 life decrease with wrong answer
+game class
+    if life 0 game over

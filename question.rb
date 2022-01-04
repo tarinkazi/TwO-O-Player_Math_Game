@@ -1,8 +1,8 @@
 class Question
 
   def initialize
-    @number1 = rand (20) + 1
-    @number2 = rand (20) + 1
+    @number1 = rand (1..20)
+    @number2 = rand (1..20)
   end
 
   def rand_question
@@ -12,7 +12,7 @@ class Question
   def match_result
     return @number1 + @number2
   end
-  
+
 end
 
 # question1= Question.new
